@@ -5,7 +5,7 @@ module.exports = (function() {
   var leaderRouter = express.Router();
   var mongoose = require('mongoose');
 
-  // import the leaders router
+  // import the leaders model
   var Leaders = require('../models/leadership');
 
   leaderRouter.use(bodyParser.json());
